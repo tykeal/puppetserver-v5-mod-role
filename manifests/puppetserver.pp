@@ -8,5 +8,5 @@ class role::puppetserver {
   include ::profile::puppetdb::postgresql
   include ::profile::puppetdb::server
 
-  # include ::profile::puppet::master
+  include ::profile::puppet::master
 }
