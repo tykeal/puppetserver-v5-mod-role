@@ -10,4 +10,5 @@ class role::allinone {
 
   # We do MTA services
   include ::profile::postfix
+  include ::profile::dovecot
 }
