@@ -12,6 +12,7 @@ class role::allinone {
   include ::profile::acme
 
   # We do MTA services
+  include ::profile::maildir
   include ::profile::postfix
   include ::profile::dovecot
 }
