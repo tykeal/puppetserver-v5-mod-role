@@ -8,6 +8,9 @@
 class role::allinone {
   include ::profile::base
 
+  # we act as an acme client
+  include ::profile::acme
+
   # We do MTA services
   include ::profile::postfix
   include ::profile::dovecot
