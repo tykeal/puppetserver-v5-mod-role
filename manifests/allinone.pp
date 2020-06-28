@@ -18,4 +18,5 @@ class role::allinone {
   include ::profile::smtp::opendkim
   include ::profile::smtp::postfix
   include ::profile::smtp::postgrey
+  include ::profile::smtp::spamassassin
 }
