@@ -12,6 +12,7 @@ class role::allinone {
   include ::profile::acme
 
   # We do MTA services
+  include ::profile::smtp::clamav
   include ::profile::smtp::dovecot
   include ::profile::smtp::maildir
   include ::profile::smtp::opendkim
