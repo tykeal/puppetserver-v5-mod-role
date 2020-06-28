@@ -14,6 +14,7 @@ class role::allinone {
   # We do MTA services
   include ::profile::smtp::dovecot
   include ::profile::smtp::maildir
+  include ::profile::smtp::opendkim
   include ::profile::smtp::postfix
   include ::profile::smtp::postgrey
 }
