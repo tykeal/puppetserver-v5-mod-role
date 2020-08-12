@@ -25,4 +25,5 @@ class role::allinone {
 
   # We do web services
   include ::profile::web::nginx
+  include ::profile::web::php
 }
