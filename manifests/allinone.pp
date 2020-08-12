@@ -19,4 +19,7 @@ class role::allinone {
   include ::profile::smtp::postfix
   include ::profile::smtp::postgrey
   include ::profile::smtp::spamassassin
+
+  # We do web services
+  include ::profile::nginx
 }
