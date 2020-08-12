@@ -24,5 +24,5 @@ class role::allinone {
   include ::profile::smtp::spamassassin
 
   # We do web services
-  include ::profile::nginx
+  include ::profile::web::nginx
 }
