@@ -11,6 +11,9 @@ class role::allinone {
   # we act as an acme client
   include ::profile::acme
 
+  # we do mariad/mysql db services
+  include ::profile::db::mysql::server
+
   # We do MTA services
   #include ::profile::smtp::clamav
   include ::profile::smtp::dovecot
