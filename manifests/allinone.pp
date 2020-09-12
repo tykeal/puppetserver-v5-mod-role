@@ -21,8 +21,8 @@ class role::allinone {
   include ::profile::smtp::opendkim
   include ::profile::smtp::postfix
   include ::profile::smtp::postgrey
-  include ::profile::smtp::roundcube
   include ::profile::smtp::spamassassin
+  include ::profile::web::roundcube
 
   # We do web services
   include ::profile::web::nginx
