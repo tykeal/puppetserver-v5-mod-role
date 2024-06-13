@@ -22,7 +22,7 @@ class role::allinone {
   include ::profile::smtp::postfix
   include ::profile::smtp::postgrey
   include ::profile::smtp::spamassassin
-  include ::profile::web::roundcube
+  #include ::profile::web::roundcube
 
   # We do web services
   include ::profile::web::nginx
